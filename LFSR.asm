@@ -14,7 +14,7 @@ DJNZ R5,L1
 RET
 
 ; The checker is used to check whether the mask used is a unique
-polynomial or not.
+;polynomial or not.
 
 CHECK:
 MOV R1,#0                ; default R1=0, which mean no repetition. Here R1 works as a flag
